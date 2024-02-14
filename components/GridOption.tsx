@@ -4,11 +4,12 @@ import Link from "next/link";
 
 type GridOptionProps = {
     title: string;
+    originalTitle?: string;
     className?: string;
     image?: string;
 }
 
-const GridOption = ({ title, className, image }: GridOptionProps) => {
+const GridOption = ({ title, className, image, originalTitle }: GridOptionProps) => {
     return (
         <Link className={cn("grid-option relative", className)} href={{
             pathname: "/search",
@@ -17,7 +18,7 @@ const GridOption = ({ title, className, image }: GridOptionProps) => {
             <h2 className="text-xl font-bold">{title}</h2>
 
             {image && (
-                <Image 
+                <Image
                     src={image}
                     alt={title}
                     layout="fill"
