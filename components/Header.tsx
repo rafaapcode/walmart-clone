@@ -13,6 +13,7 @@ const Header = () => {
 
         const input = e.currentTarget.input.value;
         router.push(`/search?q=${input}`);
+        e.currentTarget.input.value = "";
     };
 
     return (
