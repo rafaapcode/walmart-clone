@@ -33,7 +33,7 @@ export default async function ProductPage({ searchParams: { url } }: ProductPage
                 <Image key={image} src={image} alt={`${product.title} ${i}`} width={90} height={90} className="border rounded-sm" />
             ))}
         </div>
-        <Carousel opts={{ loop: true }} className="w-3/5 mb-10 lg:mb-0 lg:w-full self-center flex items-center max-w-xl mx-auto lg:mx-20">
+        <Carousel opts={{ loop: true }} className="w-3/5 mb-10 lg:mb-0 lg:w-full self-start flex items-center max-w-xl mx-auto lg:mx-20">
             <CarouselContent>
                 {product.images.map((image, i) => (
                     <CarouselItem key={i}>
