@@ -3,6 +3,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import fetchProduct from "@/lib/fetchProduct";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import AddToCart from "@/components/AddToCart";
 import {
     Table,
     TableBody,
@@ -73,6 +74,8 @@ export default async function ProductPage({ searchParams: { url } }: ProductPage
             <p className="text-2xl font-bold mt-2">
                 {product?.currency} {product.price}
             </p>
+
+            <AddToCart product={product}/>
 
             <hr />
 
