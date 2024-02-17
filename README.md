@@ -7,6 +7,8 @@
 - Trabalhar com SHADCNUi
 - Trabalhar com Loading states.
 
+### OBS
+- O projeto não foi para o AR , pois a utilização grátis da API utilizada para recuperar os dados do produto , preço , bearcrumb, reviews, etc ... dura somente 7 dias , por conta disso decidi não fazer o deploy.
 
 ## Imagens
 
@@ -16,3 +18,7 @@
 ![Captura de tela 2024-02-17 160822](https://github.com/rafaapcode/walmart-clone/assets/83471941/bb478090-538b-4b9f-b35e-9e20635f0f35)
 
 ## Demo
+
+
+https://github.com/rafaapcode/walmart-clone/assets/83471941/23318fc6-b4c0-41fb-9cb8-7ffb43632e6d
+
